@@ -66,7 +66,7 @@ It’s time personal AI caught up to enterprise standards 🚀.
 
 ```mermaid
 mindmap
-  root((🎯 KinAI Core))
+  root((🎯 KinAI ))
     🔒 Privacy-First
       Local Processing
       No Cloud Dependency
