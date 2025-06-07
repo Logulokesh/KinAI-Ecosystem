@@ -1,8 +1,9 @@
 # 🤖 KinAI Ecosystem: Privacy-First AI Solutions for Smart Living
 
 <div align="center">
-
-![KinAI Banner](https://via.placeholder.com/1200x300/1a1a2e/eee?text=KinAI+Ecosystem)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/Logo-6.gif" alt="KinAi-Nexpatrol" width="100%" />
+</p>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Logulokesh/KinAI-Ecosystem?style=for-the-badge&logo=github&color=ff6b6b)](https://github.com/Logulokesh/KinAI-Ecosystem)
 [![Docker Pulls](https://img.shields.io/docker/pulls/kinai/ecosystem?style=for-the-badge&logo=docker&color=4ecdc4)](https://hub.docker.com/r/kinai/ecosystem)
