@@ -2,7 +2,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/Logo-6.gif" alt="KinAi-Nexpatrol" width="100%" />
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/Logo-5.gif" alt="KinAi-Nexpatrol" width="100%" />
 </p>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Logulokesh/KinAI-Ecosystem?style=for-the-badge&logo=github&color=ff6b6b)](https://github.com/Logulokesh/KinAI-Ecosystem)
