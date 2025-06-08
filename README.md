@@ -827,4 +827,3 @@ Each project maintains its own licensing model. Refer to individual repositories
 <tr>
 <td align="center" width="25%">
 
-**
