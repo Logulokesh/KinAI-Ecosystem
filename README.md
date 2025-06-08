@@ -67,7 +67,7 @@ This unified, natural language chat system leverages data on health, food prefer
 
 ### 🌟 Project Overview
 
-We've mastered AI in boardrooms and data centers 🏢💻—building systems that predict market trends 📊, automate workflows ⚙️, and scale securely to millions, all while upholding strict privacy and compliance standards 🔐.
+We've mastered AI in boardrooms and data centers 🏢💻—building intelligent systems that predict market trends 📊, automate complex workflows ⚙️, and scale securely to millions of users, all while upholding strict privacy, compliance, and ethical guardrails 🔐.
 
 Yet when we come home 🏠, we're met by 'smart' devices 🤖 that barely understand our routines, let alone our cultural values 🌏, emotional needs ❤️, or privacy concerns 🕵️‍♂️.
 
@@ -154,76 +154,39 @@ mindmap
 </div>
 
 ```mermaid
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#e1f5fe',
-    'primaryTextColor': '#01579b',
-    'primaryBorderColor': '#0277bd',
-    'lineColor': '#0288d1',
-    'secondaryColor': '#f3e5f5',
-    'tertiaryColor': '#fff3e0',
-    'background': '#ffffff',
-    'mainBkg': '#ffffff',
-    'secondBkg': '#f8f9fa'
-  }
-}}%%
+graph TD
+    %% Top: Natural Language Query
+    QUERY["💬 User Query<br/>My daughter isn't<br/>picking up.<br/>Is she home?"]
 
-flowchart TB
-    %% Input Query
-    subgraph INPUT [" 💬 NATURAL LANGUAGE QUERY "]
-        QUERY["🗣️ **User Query**<br/>_'Is my daughter home?'_"]
-    end
-    
-    %% Data Sources
-    subgraph SOURCES [" 📊 INTEGRATED DATA SOURCES "]
-        direction TB
-        NEXPATROL["🛡️ **NexPatrol**<br/>📷 Face Detection<br/>⏰ Timestamp: 5:30 PM<br/>✅ Verified Entry"]
-        VISION["🏠 **Vision System**<br/>📺 TV Activity Detected<br/>🔊 Audio Patterns<br/>💡 Room Occupancy"]
-        CAREVAULT["🏥 **CareVault**<br/>❤️ Health Status: Normal<br/>📱 Device Connected<br/>🚶‍♀️ Activity Level: Low"]
-        SCHOLARKIT["🎓 **ScholarKit**<br/>📚 Homework: Completed<br/>📅 Schedule: Free Time<br/>🎯 Next Task: None"]
-    end
-    
-    %% AI Processing
-    subgraph PROCESSING [" 🧠 AI PROCESSING ENGINE "]
-        direction TB
-        CONTEXT["🔄 **Context Aggregator**<br/>📈 Data Fusion<br/>⚡ Real-time Analysis<br/>🎯 Pattern Recognition"]
-        LLM["🤖 **Local LLM**<br/>💭 Natural Language Processing<br/>🧩 Context Integration<br/>📝 Response Generation"]
-    end
-    
-    %% Output Response  
-    subgraph OUTPUT [" 💬 INTELLIGENT RESPONSE "]
-        RESPONSE["🎯 **Smart Answer**<br/>_'Yes, your daughter arrived home at 5:30 PM._<br/>_She's currently watching TV in the living room._<br/>_Her homework is complete and health vitals are normal._<br/>_She might not have heard your call due to TV volume.'_"]
-    end
-    
-    %% Connections with enhanced styling
-    QUERY -.->|"🔍 Query Analysis"| CONTEXT
-    
-    NEXPATROL -->|"👤 Identity & Time"| CONTEXT
-    VISION -->|"🏠 Home Activity"| CONTEXT  
-    CAREVAULT -->|"💊 Health Data"| CONTEXT
-    SCHOLARKIT -->|"📖 Academic Status"| CONTEXT
-    
-    CONTEXT -->|"📊 Unified Context"| LLM
-    LLM -->|"💡 Generated Response"| RESPONSE
-    
-    %% Enhanced styling with modern colors
-    classDef queryStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:3px,color:#0d47a1,font-weight:bold
-    classDef sourceStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c,font-weight:bold
-    classDef visionStyle fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold
-    classDef healthStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#1b5e20,font-weight:bold
-    classDef scholarStyle fill:#fff8e1,stroke:#f57c00,stroke-width:2px,color:#e65100,font-weight:bold
-    classDef processStyle fill:#fff3e0,stroke:#f57c00,stroke-width:3px,color:#bf360c,font-weight:bold
-    classDef responseStyle fill:#f1f8e9,stroke:#558b2f,stroke-width:3px,color:#33691e,font-weight:bold
-    classDef subgraphStyle fill:#fafafa,stroke:#424242,stroke-width:2px
-    
-    class QUERY queryStyle
-    class NEXPATROL sourceStyle
-    class VISION visionStyle
-    class CAREVAULT healthStyle
-    class SCHOLARKIT scholarStyle
-    class CONTEXT,LLM processStyle
-    class RESPONSE responseStyle
+    %% Second Level: Data Sources
+    NEXPATROL["🛡️ KinAI-NexPatrol<br/>📷 Face Detected<br/>⏰ 5:30 PM<br/>✅ Verified"]
+    VISION["🏠 KinAI-Vision<br/>📺 TV Active<br/>🔊 Audio<br/>💡 Occupied"]
+    CAREVAULT["🏥 KinAI-CareVault<br/>❤️ Normal Vitals<br/>📱 Linked<br/>🚶 Low Activity"]
+    SCHOLARKIT["🎓 KinAI-ScholarKit<br/>📚 Homework Done<br/>📅 Free<br/>🎯 No Tasks"]
+
+    %% Third Level: AI Processing
+    CONTEXT["🔄 Aggregator<br/>📈 Data Fusion<br/>⚡ Real-time<br/>🎯 Patterns"]
+    RAG["📚 Graph RAG<br/>🔎 Lookup<br/>🧠 Reasoning<br/>🔗 Mapping"]
+    LLM["🤖 LLM Engine<br/>💭 NLP<br/>🧩 Integration<br/>📝 Answer"]
+
+    %% Bottom: Response
+    RESPONSE["💬 Response<br/>She arrived at 5:30 PM<br/>and is watching TV,<br/>likely why she<br/>missed your call"]
+
+ %% Flow Connections
+    QUERY -->|"Parse Query"| CONTEXT
+    NEXPATROL -->|"Security Data"| CONTEXT
+    VISION -->|"Home Activity"| CONTEXT
+    CAREVAULT -->|"Health Data"| CONTEXT
+    SCHOLARKIT -->|"Academic Data"| CONTEXT
+    CONTEXT -->|"Enriched Context"| RAG
+    RAG -->|"Knowledge Base"| LLM
+    LLM -->|"Generate Response"| RESPONSE
+
+
+
+    %% CSS to prevent text cutoff
+    classDef nodeStyle padding:10px, font-size:12px, text-align:center, white-space:pre-wrap;
+    class QUERY,NEXPATROL,VISION,CAREVAULT,SCHOLARKIT,CONTEXT,RAG,LLM,RESPONSE nodeStyle;
 ```
 
 ---
