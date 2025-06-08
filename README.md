@@ -148,11 +148,14 @@ mindmap
 
 ## 🔮 **Natural Language Chat Integration**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/LogoEco.gif" alt="KinAi-Nexpatrol" width="100%" />
+</p>
+
 <div align="center">
-
-### 🤖 **How KinAI Delivers Breakthrough Contextual Responses**
-
-</div>
+📋 Project Portfolio
+<details>
+  <summary>🤖 <strong>How KinAI Delivers Breakthrough Contextual Responses</strong></summary>
 
 ```mermaid
 graph TD
@@ -188,7 +191,8 @@ graph TD
     class QUERY,NEXPATROL,VISION,CAREVAULT,SCHOLARKIT,CONTEXT,RAG,LLM,RESPONSE nodeStyle;
 
 ```
-
+</details>
+</div>
 ---
 
 ## 📋 Project Portfolio
