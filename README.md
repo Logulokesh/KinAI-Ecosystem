@@ -118,27 +118,27 @@ It's time personal AI caught up to enterprise standards 🚀.
 
 ```mermaid
 mindmap
-  root((🎯 KinAI ))
+  root((🎯 KinAI))
     🔒 Privacy-First
-      Local Processing
-      No Cloud Dependency
-      Data Sovereignty
+      🖥️ Local Processing
+      ☁️ No Cloud Dependency
+      🗂️ Data Sovereignty
     🧠 Intelligent Automation
-      Smart Decisions
-      Context Awareness
-      Predictive Actions
+      🧮 Smart Decisions
+      🧭 Context Awareness
+      📈 Predictive Actions
     🌍 Cultural Awareness
-      Context-Aware Responses
-      Cultural Intelligence
-      Personalized Automation
+      🗣️ Context-Aware Responses
+      🧕 Cultural Intelligence
+      🧍 Personalized Automation
     🔗 Seamless Integration
-      Unified Ecosystem
-      Cross-Project Communication
-      Shared Resources
+      🔄 Unified Ecosystem
+      🌐 Cross-Project Communication
+      📦 Shared Resources
     💬 Natural Language Chat
-      Family-Like AI Assistant
-      Contextual Responses
-      Real-Time Insights
+      👨‍👩‍👧 Family-Like AI Assistant
+      🧾 Contextual Responses
+      ⚡ Real-Time Insights
 ```
 
 </div>
@@ -154,38 +154,76 @@ mindmap
 </div>
 
 ```mermaid
-graph TB
-    subgraph "💬 Natural Language Query"
-        QUERY[👤 'My daughter isn't picking up the phone, is she home?']
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#e1f5fe',
+    'primaryTextColor': '#01579b',
+    'primaryBorderColor': '#0277bd',
+    'lineColor': '#0288d1',
+    'secondaryColor': '#f3e5f5',
+    'tertiaryColor': '#fff3e0',
+    'background': '#ffffff',
+    'mainBkg': '#ffffff',
+    'secondBkg': '#f8f9fa'
+  }
+}}%%
+
+flowchart TB
+    %% Input Query
+    subgraph INPUT [" 💬 NATURAL LANGUAGE QUERY "]
+        QUERY["🗣️ **User Query**<br/>_'Is my daughter home?'_"]
     end
     
-    subgraph "🔍 Data Integration Layer"
-        NEXPATROL[🛡️ KinAI-NexPatrol<br/>Face Recognition: Sarah arrived 5:30 PM]
-        VISION[🏠 KinAI-Vision<br/>Activity Detection: Watching TV in living room]
-        CAREVAULT[🏥 KinAI-CareVault<br/>Health Status: Normal patterns]
-        SCHOLARKIT[🎓 KinAI-ScholarKit<br/>Education: Homework completed]
+    %% Data Sources
+    subgraph SOURCES [" 📊 INTEGRATED DATA SOURCES "]
+        direction TB
+        NEXPATROL["🛡️ **NexPatrol**<br/>📷 Face Detection<br/>⏰ Timestamp: 5:30 PM<br/>✅ Verified Entry"]
+        VISION["🏠 **Vision System**<br/>📺 TV Activity Detected<br/>🔊 Audio Patterns<br/>💡 Room Occupancy"]
+        CAREVAULT["🏥 **CareVault**<br/>❤️ Health Status: Normal<br/>📱 Device Connected<br/>🚶‍♀️ Activity Level: Low"]
+        SCHOLARKIT["🎓 **ScholarKit**<br/>📚 Homework: Completed<br/>📅 Schedule: Free Time<br/>🎯 Next Task: None"]
     end
     
-    subgraph "🧠 AI Processing Hub"
-        LLM[🤖 Local LLM Processing<br/>Context Analysis<br/>Response Generation]
+    %% AI Processing
+    subgraph PROCESSING [" 🧠 AI PROCESSING ENGINE "]
+        direction TB
+        CONTEXT["🔄 **Context Aggregator**<br/>📈 Data Fusion<br/>⚡ Real-time Analysis<br/>🎯 Pattern Recognition"]
+        LLM["🤖 **Local LLM**<br/>💭 Natural Language Processing<br/>🧩 Context Integration<br/>📝 Response Generation"]
     end
     
-    subgraph "💬 Contextual Response"
-        RESPONSE[🤖 'She arrived home at 5:30 PM and is currently<br/>watching TV, which might explain why<br/>she missed your call.']
+    %% Output Response  
+    subgraph OUTPUT [" 💬 INTELLIGENT RESPONSE "]
+        RESPONSE["🎯 **Smart Answer**<br/>_'Yes, your daughter arrived home at 5:30 PM._<br/>_She's currently watching TV in the living room._<br/>_Her homework is complete and health vitals are normal._<br/>_She might not have heard your call due to TV volume.'_"]
     end
     
-    QUERY --> LLM
-    NEXPATROL --> LLM
-    VISION --> LLM
-    CAREVAULT --> LLM
-    SCHOLARKIT --> LLM
-    LLM --> RESPONSE
+    %% Connections with enhanced styling
+    QUERY -.->|"🔍 Query Analysis"| CONTEXT
     
-    style QUERY fill:#e1f5fe
-    style LLM fill:#fff3e0
-    style RESPONSE fill:#e8f5e8
-    style NEXPATROL fill:#f3e5f5
-    style VISION fill:#fce4ec
+    NEXPATROL -->|"👤 Identity & Time"| CONTEXT
+    VISION -->|"🏠 Home Activity"| CONTEXT  
+    CAREVAULT -->|"💊 Health Data"| CONTEXT
+    SCHOLARKIT -->|"📖 Academic Status"| CONTEXT
+    
+    CONTEXT -->|"📊 Unified Context"| LLM
+    LLM -->|"💡 Generated Response"| RESPONSE
+    
+    %% Enhanced styling with modern colors
+    classDef queryStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:3px,color:#0d47a1,font-weight:bold
+    classDef sourceStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c,font-weight:bold
+    classDef visionStyle fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold
+    classDef healthStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#1b5e20,font-weight:bold
+    classDef scholarStyle fill:#fff8e1,stroke:#f57c00,stroke-width:2px,color:#e65100,font-weight:bold
+    classDef processStyle fill:#fff3e0,stroke:#f57c00,stroke-width:3px,color:#bf360c,font-weight:bold
+    classDef responseStyle fill:#f1f8e9,stroke:#558b2f,stroke-width:3px,color:#33691e,font-weight:bold
+    classDef subgraphStyle fill:#fafafa,stroke:#424242,stroke-width:2px
+    
+    class QUERY queryStyle
+    class NEXPATROL sourceStyle
+    class VISION visionStyle
+    class CAREVAULT healthStyle
+    class SCHOLARKIT scholarStyle
+    class CONTEXT,LLM processStyle
+    class RESPONSE responseStyle
 ```
 
 ---
