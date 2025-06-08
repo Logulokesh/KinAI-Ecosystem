@@ -118,27 +118,28 @@ It's time personal AI caught up to enterprise standards 🚀.
 
 ```mermaid
 mindmap
-  root((🎯 KinAI))
-    🔒 Privacy-First
+  root((🎯 KINAI))
+    🔒 PRIVACY-FIRST
       🖥️ Local Processing
       ☁️ No Cloud Dependency
       🗂️ Data Sovereignty
-    🧠 Intelligent Automation
+    🧠 INTELLIGENT AUTOMATION
       🧮 Smart Decisions
       🧭 Context Awareness
       📈 Predictive Actions
-    🌍 Cultural Awareness
+    🌍 CULTURAL AWARENESS
       🗣️ Context-Aware Responses
       🧕 Cultural Intelligence
       🧍 Personalized Automation
-    🔗 Seamless Integration
+    🔗 SEAMLESS INTEGRATION
       🔄 Unified Ecosystem
       🌐 Cross-Project Communication
       📦 Shared Resources
-    💬 Natural Language Chat
+    💬 NATURAL LANGUAGE CHAT
       👨‍👩‍👧 Family-Like AI Assistant
       🧾 Contextual Responses
       ⚡ Real-Time Insights
+
 ```
 
 </div>
