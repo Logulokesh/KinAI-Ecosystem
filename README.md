@@ -156,23 +156,23 @@ mindmap
 ```mermaid
 graph TD
     %% Top: Natural Language Query
-    QUERY["💬 User Query<br/>My daughter isn't<br/>picking up.<br/>Is she home?"]
+    QUERY["💬 **USER QUERY**<br/>My daughter isn't<br/>picking up.<br/>Is she home?"]
 
     %% Second Level: Data Sources
-    NEXPATROL["🛡️ KinAI-NexPatrol<br/>📷 Face Detected<br/>⏰ 5:30 PM<br/>✅ Verified"]
-    VISION["🏠 KinAI-Vision<br/>📺 TV Active<br/>🔊 Audio<br/>💡 Occupied"]
-    CAREVAULT["🏥 KinAI-CareVault<br/>❤️ Normal Vitals<br/>📱 Linked<br/>🚶 Low Activity"]
-    SCHOLARKIT["🎓 KinAI-ScholarKit<br/>📚 Homework Done<br/>📅 Free<br/>🎯 No Tasks"]
+    NEXPATROL["🛡️ **KINAI-NEXPATROL**<br/>📷 Face Detected<br/>⏰ 5:30 PM<br/>✅ Verified"]
+    VISION["🏠 **KINAI-VISION**<br/>📺 TV Active<br/>🔊 Audio<br/>💡 Occupied"]
+    CAREVAULT["🏥 **KINAI-CAREAULT**<br/>❤️ Normal Vitals<br/>📱 Linked<br/>🚶 Low Activity"]
+    SCHOLARKIT["🎓 **KINAI-SCHOLARKIT**<br/>📚 Homework Done<br/>📅 Free<br/>🎯 No Tasks"]
 
     %% Third Level: AI Processing
-    CONTEXT["🔄 Aggregator<br/>📈 Data Fusion<br/>⚡ Real-time<br/>🎯 Patterns"]
-    RAG["📚 Graph RAG<br/>🔎 Lookup<br/>🧠 Reasoning<br/>🔗 Mapping"]
-    LLM["🤖 LLM Engine<br/>💭 NLP<br/>🧩 Integration<br/>📝 Answer"]
+    CONTEXT["🔄 **AGGREGATOR**<br/>📈 Data Fusion<br/>⚡ Real-time<br/>🎯 Patterns"]
+    RAG["📚 **GRAPH RAG**<br/>🔎 Lookup<br/>🧠 Reasoning<br/>🔗 Mapping"]
+    LLM["🤖 **LLM ENGINE**<br/>💭 NLP<br/>🧩 Integration<br/>📝 Answer"]
 
     %% Bottom: Response
-    RESPONSE["💬 Response<br/>She arrived at 5:30 PM<br/>and is watching TV,<br/>likely why she<br/>missed your call"]
+    RESPONSE["💬 **RESPONSE**<br/>She arrived at 5:30 PM<br/>and is watching TV,<br/>likely why she<br/>missed your call"]
 
- %% Flow Connections
+    %% Flow Connections
     QUERY -->|"Parse Query"| CONTEXT
     NEXPATROL -->|"Security Data"| CONTEXT
     VISION -->|"Home Activity"| CONTEXT
@@ -182,11 +182,10 @@ graph TD
     RAG -->|"Knowledge Base"| LLM
     LLM -->|"Generate Response"| RESPONSE
 
-
-
-    %% CSS to prevent text cutoff
+    %% Node style
     classDef nodeStyle padding:10px, font-size:12px, text-align:center, white-space:pre-wrap;
     class QUERY,NEXPATROL,VISION,CAREVAULT,SCHOLARKIT,CONTEXT,RAG,LLM,RESPONSE nodeStyle;
+
 ```
 
 ---
