@@ -24,7 +24,7 @@
     "My daughter isn't picking up the phone, is she home?"
     → "She arrived home at 5:30 PM and is currently watching TV, which might explain why she missed your call."
 
-KinAI aims to create a **family member-like AI** that acts as the first level of support for health, finance, well-being, and daily activity monitoring, keeping everyone informed with contextual awareness. By integrating data from **KinAI-Vision** (home activity), **KinAI-CareVault** (health and finance), **KinAI-NexPatrol** (security), **KinAI-ScholarKit** (education), and **KinAI-Mentor** (tutoring), the AI delivers **breakthrough contextual responses** to natural language queries.
+KinAI aims to create a **family member-like AI** that acts as the first level of support for health, finance, well-being, and daily activity monitoring, keeping everyone informed with contextual awareness. By integrating data from **KinAI-Vision** (home activity), **KinAI-CareVault** (health and finance), **KinAI-NexPatrol** (security), **KinAI-ScholarKit** (education), **KinAI-Mentor** (tutoring), and **KinAI-LocAware** (family tracking), the AI delivers **breakthrough contextual responses** to natural language queries.
 
 This unified, natural language chat system leverages data on health, food preferences, education, and daily routines to provide personalized, privacy-first support for the entire family.
 
@@ -167,6 +167,7 @@ graph TD
     VISION["🏠 **KINAI-VISION**<br/>📺 TV Active<br/>🔊 Audio<br/>💡 Occupied"]
     CAREVAULT["🏥 **KINAI-CAREAULT**<br/>❤️ Normal Vitals<br/>📱 Linked<br/>🚶 Low Activity"]
     SCHOLARKIT["🎓 **KINAI-SCHOLARKIT**<br/>📚 Homework Done<br/>📅 Free<br/>🎯 No Tasks"]
+    LOCAWARE["📍 **KINAI-LOCAWARE**<br/>🏠 At Home<br/>⏰ Arrived 5:30 PM<br/>📱 Device Active"]
 
     %% Third Level: AI Processing
     CONTEXT["🔄 **AGGREGATOR**<br/>📈 Data Fusion<br/>⚡ Real-time<br/>🎯 Patterns"]
@@ -182,13 +183,14 @@ graph TD
     VISION -->|"Home Activity"| CONTEXT
     CAREVAULT -->|"Health Data"| CONTEXT
     SCHOLARKIT -->|"Academic Data"| CONTEXT
+    LOCAWARE -->|"Location Data"| CONTEXT
     CONTEXT -->|"Enriched Context"| RAG
     RAG -->|"Knowledge Base"| LLM
     LLM -->|"Generate Response"| RESPONSE
 
     %% Node style
     classDef nodeStyle padding:10px, font-size:12px, text-align:center, white-space:pre-wrap;
-    class QUERY,NEXPATROL,VISION,CAREVAULT,SCHOLARKIT,CONTEXT,RAG,LLM,RESPONSE nodeStyle;
+    class QUERY,NEXPATROL,VISION,CAREVAULT,SCHOLARKIT,LOCAWARE,CONTEXT,RAG,LLM,RESPONSE nodeStyle;
 
 ```
 </details>
@@ -199,7 +201,7 @@ graph TD
 
 <div align="center">
 
-### 🏠 **Smart Home** • 🏥 **Healthcare** • 🛡️ **Security** • 🎓 **Education**
+### 🏠 **Smart Home** • 🏥 **Healthcare** • 🛡️ **Security** • 🎓 **Education** • 📍 **Family Tracking**
 
 </div>
 
@@ -375,6 +377,33 @@ graph TB
 
 </details>
 
+<details>
+<summary><b>📍 KinAI-LocAware</b> - Privacy-first family location tracking and geofencing system</summary>
+
+<br>
+
+**🔍 Problem Solved:** Invasive, cloud-dependent family tracking apps with poor privacy controls
+
+**🎯 Natural Language Chat Contribution:** Real-time family location data, arrival/departure tracking, and distance calculations for contextual family awareness and safety insights.
+
+**🎯 Key Features:**
+- 📍 **Real-Time Tracking:** Live family member locations
+- 🏠 **Geofencing:** Custom zones and automated alerts
+- 📊 **Distance Calculations:** Home proximity monitoring
+- 🔒 **Privacy-Focused:** Complete local processing via Traccar
+- ⚡ **Daily Summaries:** Movement and location analytics
+
+**🔧 Tech Stack:**
+- 🚗 **Tracking Backend:** Traccar Server
+- 🧠 **API Layer:** FastAPI with Pydantic models
+- 🗄️ **Database:** PostgreSQL
+- 🐳 **Deployment:** Docker containerization
+- 💬 **Integration:** Direct API endpoints for chat system
+
+**💡 Innovation:** Self-hosted location intelligence with enterprise-grade privacy and seamless family chat integration.
+
+</details>
+
 ---
 
 ## 🏗️ System Architecture
@@ -412,6 +441,13 @@ graph TB
         KV_AUTO[🏠 Automation Service<br/>Device Control]
     end
     
+    subgraph "📍 KinAI-LocAware"
+        LA_API[🚪 FastAPI Gateway<br/>Location Services]
+        LA_TRACCAR[🚗 Traccar Server<br/>GPS Processing]
+        LA_DB[🗄️ PostgreSQL<br/>Location Data]
+        LA_GEO[🗺️ Geofencing<br/>Zone Management]
+    end
+    
     subgraph "🎓 Education Suite"
         SK_AI[📚 ScholarKit<br/>Curriculum Content]
         M_AI[🎓 Mentor<br/>Voice Tutoring]
@@ -429,12 +465,14 @@ graph TB
     Core --> KV_NLP
     Core --> SK_AI
     Core --> M_AI
+    Core --> LA_API
     
     CHAT --> CV_DB
     CHAT --> NP_VISION
     CHAT --> KV_VISION
     CHAT --> SK_AI
     CHAT --> M_AI
+    CHAT --> LA_API
     
     TELEGRAM --> CV_BOT
     TELEGRAM --> NP_BOT
@@ -444,6 +482,7 @@ graph TB
     N8N_MASTER --> CV_AUTO
     N8N_MASTER --> NP_AUTO
     N8N_MASTER --> KV_AUTO
+    N8N_MASTER --> LA_GEO
     
     GPU_SHARED --> NP_VISION
     GPU_SHARED --> KV_VISION
@@ -451,11 +490,16 @@ graph TB
     GPU_SHARED --> M_AI
     GPU_SHARED --> CHAT
     
+    LA_API --> LA_TRACCAR
+    LA_TRACCAR --> LA_DB
+    LA_API --> LA_GEO
+    
     style CHAT fill:#e1f5fe,stroke:#0277bd,stroke-width:4px
     style Core fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
     style CV_AI fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     style NP_AI fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     style KV_NLP fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style LA_API fill:#fff8e1,stroke:#ff8f00,stroke-width:2px
     style TELEGRAM fill:#fce4ec,stroke:#c2185b,stroke-width:2px
 ```
 
@@ -478,6 +522,7 @@ graph TB
 | 🏥 Health + 🏠 Home | Medication reminders with activity awareness | **Q:** "Did mom take her pills?" **A:** "Mom took her evening medication and is now reading in the bedroom." |
 | 🎓 Education + 🏠 Home | Learning progress with family context | **Q:** "How's Emma's homework going?" **A:** "Emma completed her math homework and is currently practicing piano." |
 | 🎓 Mentor + 📚 ScholarKit | Integrated tutoring with progress tracking | **Q:** "What should we focus on for study time?" **A:** "Based on recent performance, Emma needs help with fractions - I've prepared targeted exercises." |
+| 📍 Location + 🛡️ Security | Family safety with location verification | **Q:** "Did Sarah make it to school safely?" **A:** "Sarah arrived at school at 8:15 AM and her location was verified by both LocAware tracking and NexPatrol facial recognition." |
 
 <div align="center">
 
@@ -549,6 +594,7 @@ git clone https://github.com/Logulokesh/KinAI-CareVault.git
 git clone https://github.com/Logulokesh/KinAI-NexPatrol.git
 git clone https://github.com/Logulokesh/KinAI-ScholarKit.git
 git clone https://github.com/Logulokesh/kinai-mentor.git
+git clone https://github.com/Logulokesh/KinAI-LocAware.git
 
 # 2️⃣ Configure environment
 cp .env.example .env
@@ -826,8 +872,3 @@ Each project maintains its own licensing model. Refer to individual repositories
 **Built with passion ❤️ for privacy, intelligence, and automation**
 
 </div>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
