@@ -351,7 +351,7 @@ graph TD
 
 </details>
 
-## 🔮 ** Natural Language Chat Integration & 🚧 Voice Support In Progress**
+## 🔮 Natural Language Chat Enabled | 🚧 Voice Support Coming Soon
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/LogoEco.gif" alt="KinAi-Nexpatrol" width="100%" />
@@ -815,7 +815,6 @@ sequenceDiagram
 - **🔮 Predictive Maintenance**: Anticipate system needs and updates
 ---
 
----
 
 **💡 The Difference**: While smart homes tell you *what's happening*, KinAI tells you *what it means* - turning raw data into family wisdom.
 
