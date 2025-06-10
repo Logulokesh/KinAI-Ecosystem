@@ -639,11 +639,18 @@ flowchart TD
     K --> L
     L --> M[💬 Meaningful Family Response]
     
-    style A fill:#e3f2fd
-    style M fill:#e8f5e8
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style K fill:#ffebee
+    %% Dark mode compatible styling
+    classDef input stroke-width:3px
+    classDef output stroke-width:3px,stroke-dasharray: 3 3
+    classDef hub stroke-width:4px
+    classDef pipeline stroke-width:2px,stroke-dasharray: 5 5
+    classDef specialist stroke-width:3px,stroke-dasharray: 2 2
+    
+    class A input
+    class M output
+    class B hub
+    class C,D pipeline
+    class K specialist
 ```
 
 </div>
