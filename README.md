@@ -80,12 +80,20 @@ Your family's data is sacred. That's why KinAI processes everything locally:
 
 In a world of disconnected apps and privacy concerns, KinAI brings everything together while keeping everything private. It's the difference between managing your family's digital life and having it manage itself—intelligently, securely, and naturally.
 
+<table width="100%" border="0">
+  <tr>
+    <td width="15%" valign="top">
+      <img src="Loading.gif" alt="KinAI GIF" width="100%" />
+    </td>
+    <td width="70%" valign="top">
+    
 <details>
   <summary>🤝 Think Like a Human Agent — Click to expand</summary>
 
 <em>
 
 ## 🤝 Think Like a Human Agent
+
 Hey, let’s talk about something that’s probably been bugging you. You’re at home, chatting with your family about running out of paracetamol for a fever 🤒, and suddenly your phone’s serving you ads for painkillers 💊. Sound familiar?
 
 At first, you might joke, *“Whoa, is God listening and sending suggestions now?”*  
@@ -118,6 +126,9 @@ Whether it’s tracking your family’s health ❤️, securing your home 🏠, 
 
 </em>
 </details>
+
+  </tr>
+</table>
 
 ## 🎯 Core Philosophy
 
