@@ -1,4 +1,4 @@
-# 🤖 KinAI Ecosystem: Privacy-First AI Solutions for Smart Living
+# 🔐 KinAI Ecosystem — Privacy-First AI for Smarter, Safer Living
 
 <div align="center">
 <p align="center">
