@@ -2,7 +2,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/Logo-5.gif" alt="KinAi-Nexpatrol" width="100%" />
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/Logo-5.gif" alt="KinAi-Nexpatrol" width="100%" />
 </p>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Logulokesh/KinAI-Ecosystem?style=for-the-badge&logo=github&color=ff6b6b)](https://github.com/Logulokesh/KinAI-Ecosystem)
@@ -132,7 +132,7 @@ KinAI is a comprehensive ecosystem of AI-powered applications designed to enhanc
 ### 🏠 KinAI-Vision
 *AI-driven microservices for intelligent home automation*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/Vision.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/Vision.png" alt="KinAi" width="50%" /></p>
 
 
 **📁 Repository:** [KinAI-Vision](https://github.com/Logulokesh/KinAI-Vision)
@@ -187,7 +187,7 @@ graph TD
 ### 🏥 KinAI-CareVault
 *Intelligent health & financial management system*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/CareVault.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/CareVault.png" alt="KinAi" width="50%" /></p>
 
 
 **📁 Repository:** [KinAI-CareVault](https://github.com/Logulokesh/KinAI-CareVault)
@@ -250,7 +250,7 @@ graph TD
 ### 🛡️ KinAI-NexPatrol
 *AI-powered security & surveillance system*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/NexPatrol.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/NexPatrol.png" alt="KinAi" width="50%" /></p>
 
 
 **📁 Repository:** [KinAI-NexPatrol](https://github.com/Logulokesh/KinAI-NexPatrol)
@@ -322,7 +322,7 @@ graph TD
 ### 🎓 KinAI-ScholarKit
 *LLM-powered curriculum-aligned educational activity generator*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/ScholarKit.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/ScholarKit.png" alt="KinAi" width="50%" /></p>
 
 **📁 Repository:** [KinAI-ScholarKit](https://github.com/Logulokesh/KinAI-ScholarKit)
 
@@ -382,7 +382,7 @@ graph TD
 ### 🎓 KinAI-Mentor
 *Open-source, offline educational assistant*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/mentor.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/mentor.png" alt="KinAi" width="50%" /></p>
 
 
 **📁 Repository:** [KinAI-Mentor](https://github.com/Logulokesh/kinai-mentor)
@@ -443,7 +443,7 @@ graph TD
 ### 📍 KinAI-GeoPulse
 *Privacy-first family location tracking and geofencing system*
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/GeoPulse.png" alt="KinAi" width="50%" /></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/GeoPulse.png" alt="KinAi" width="50%" /></p>
 
 **📁 Repository:** [KinAI-GeoPulse](https://github.com/Logulokesh/KinAI-GeoPulse)
 
@@ -506,7 +506,7 @@ graph TD
 ## 🔮 Natural Language Chat Enabled | 🚧 Voice Support Coming Soon
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/LogoEco.gif" alt="KinAi-Nexpatrol" width="100%" />
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/LogoEco.gif" alt="KinAi-Nexpatrol" width="100%" />
 </p>
 
 ---
