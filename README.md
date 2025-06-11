@@ -5,8 +5,6 @@
   <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/Logo-5.gif" alt="KinAi-Nexpatrol" width="100%" />
 </p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/Logulokesh/KinAI-Ecosystem?style=for-the-badge&logo=github&color=ff6b6b)](https://github.com/Logulokesh/KinAI-Ecosystem)
-[![Docker Pulls](https://img.shields.io/docker/pulls/kinai/ecosystem?style=for-the-badge&logo=docker&color=4ecdc4)](https://hub.docker.com/r/kinai/ecosystem)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=open-source-initiative&color=45b7d1)](LICENSE)
 [![Privacy First](https://img.shields.io/badge/Privacy-First-green.svg?style=for-the-badge&logo=shield&color=96ceb4)](docs/privacy.md)
 
@@ -51,24 +49,16 @@
 ```
 
 
-### 🏠 **KinAI-Vision** - *Your Home's Watchful Eye*
-Smart monitoring and automation that learns your family's rhythms
 
-### 🩺 **KinAI-CareVault** - *Health & Finance Guardian* 
-Secure management of medical records, appointments, and family finances
 
-### 🔐 **KinAI-NexPatrol** - *Digital Security Shield*
-Advanced protection with intelligent threat detection and access control
-
-### 📚 **KinAI-ScholarKit** - *Educational Progress Tracker*
-Monitor academic growth and plan learning journeys for each family member
-
-### 👨‍🏫 **KinAI-Mentor** - *Personal Learning Companion*
-AI tutoring that adapts to individual learning styles and needs
-
-### 🌍 **KinAI-GeoPulse** - *Family Coordination Hub*
-Intelligent location services that keep everyone connected and safe
-
+| Module | Focus | Description |
+|--------|-------|-------------|
+| 🏠 **KinAI-Vision** | *Your Home's Watchful Eye* | Smart monitoring and automation that learns your family's rhythms |
+| 🩺 **KinAI-CareVault** | *Health & Finance Guardian* | Secure management of medical records, appointments, and family finances |
+| 🔐 **KinAI-NexPatrol** | *Digital Security Shield* | Advanced protection with intelligent threat detection and access control |
+| 📚 **KinAI-ScholarKit** | *Educational Progress Tracker* | Monitor academic growth and plan learning journeys for each family member |
+| 👨‍🏫 **KinAI-Mentor** | *Personal Learning Companion* | AI tutoring that adapts to individual learning styles and needs |
+| 🌍 **KinAI-GeoPulse** | *Family Coordination Hub* | Intelligent location services that keep everyone connected and safe |
 ---
 
 ## 🛡️ **Privacy by Design**
@@ -185,7 +175,7 @@ It's time personal AI caught up to enterprise standards 🚀.
 
 <div align="center">
 
-![KinAI Banner](https://via.placeholder.com/800x200/667eea/ffffff?text=KinAI%20•%20AI-Powered%20Family%20Ecosystem)
+<p align="center"> <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/hub.png" alt="KinAi" width="60%" /></p>
 
 ### 🏠 **Smart Home** • 🏥 **Healthcare** • 🛡️ **Security** • 🎓 **Education** • 📍 **Family Tracking**
 
