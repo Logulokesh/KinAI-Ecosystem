@@ -16,11 +16,24 @@
 
 ---
 
-## 🎯 **KinAI Natural Language Chat & Voice**
+# 💬 KinAI – Natural Language Chat & Voice Assistant for Families
 
-KinAI aims to create a **family member-like AI** that acts as the first level of support for health, finance, well-being, and daily activity monitoring, keeping everyone informed with contextual awareness. By integrating data from **KinAI-Vision** (home activity), **KinAI-CareVault** (health and finance), **KinAI-NexPatrol** (security), **KinAI-ScholarKit** (education), **KinAI-Mentor** (tutoring), and **KinAI-GeoPulse** (family tracking), the AI delivers **breakthrough contextual responses** to natural language queries.
+🧠 **KinAI** transforms family support with a **privacy-first, AI-powered assistant** that feels like a trusted family member.
 
-This unified, natural language chat system leverages data on health, food preferences, education, and daily routines to provide personalized, privacy-first support for the entire family.
+By seamlessly integrating data from:
+
+- 🏠 **KinAI-Vision** – *Home activity monitoring*  
+- 🩺 **KinAI-CareVault** – *Health & finance management*  
+- 🔐 **KinAI-NexPatrol** – *Smart home security*  
+- 📚 **KinAI-ScholarKit** – *Education tracking & planning*  
+- 👨‍🏫 **KinAI-Mentor** – *Personalized tutoring & learning*  
+- 🌍 **KinAI-GeoPulse** – *Family location tracking*
+
+**KinAI delivers contextual, natural language responses** tailored to health, education, safety, and daily routines.
+
+🔐 This unified chat system leverages **local LLMs (Gemma 3 / MedGemma 3)** and a **Graph RAG pipeline** to provide personalized insights with **enterprise-grade privacy**.
+
+Whether monitoring well-being, tracking activities, or supporting learning, **KinAI empowers families** with real-time, secure, and meaningful assistance.
 
 <details>
   <summary>🤝 Think Like a Human Agent — Click to expand</summary>
