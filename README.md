@@ -23,9 +23,16 @@
 
 *"Hey KinAI, how's everyone doing today?"*
 
-*Answer: Your daughter arrived home at 5:30 PM and is watching TV with her homework completed. Your father is at home with normal vitals. The security system confirms everyone else left safely. Mom is 5 minutes late to her appointment, based on her last known location."*
-
-**This is KinAI.** Not just another smart assistant, but a family member who knows, cares, and protects.
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="middle" width="25">
+      <img src="img\BarLoader.gif" alt="Loading..." width="80" />
+    </td>
+    <td valign="middle">
+      <i>Answer: Your daughter arrived home at 5:30 PM and is watching TV with her homework completed. Your father is home with normal vitals. Everyone else has arrived home safely. Mom is running about 10 minutes late to her medical appointment, based on her last known location.</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -83,7 +90,7 @@ In a world of disconnected apps and privacy concerns, KinAI brings everything to
 <table width="100%" border="0">
   <tr>
     <td width="15%" valign="top">
-      <img src="Loading.gif" alt="KinAI GIF" width="100%" />
+      <img src="img\Loading.gif" alt="KinAI GIF" width="100%" />
     </td>
     <td width="70%" valign="top">
     
