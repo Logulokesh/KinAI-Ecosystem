@@ -22,7 +22,7 @@
 
 By seamlessly integrating data from:
 
-- 🏠 **KinAI-Vision** – *Home activity monitoring*  
+- 🏠 **KinAI-Vision** – *Home activity monitoring & automation*  
 - 🩺 **KinAI-CareVault** – *Health & finance management*  
 - 🔐 **KinAI-NexPatrol** – *Smart home security*  
 - 📚 **KinAI-ScholarKit** – *Education tracking & planning*  
