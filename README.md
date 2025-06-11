@@ -1250,8 +1250,6 @@ Yep, it’s free — just like hugs 🤗, high-fives ✋, and a thumbs-up 👍!
 
 ---
 
-## 🙏 Acknowledgments
-
 <div align="center">
 
 **Built with passion ❤️ for privacy, intelligence, and automation**
