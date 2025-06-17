@@ -151,7 +151,7 @@ In a world of disconnected apps and privacy concerns, KinAI brings everything to
     <td width="70%" valign="top">
     
 <details>
-  <summary>🤝 Think Like a Human Agent — Click to expand</summary>
+  <summary>🤝 Think Like a Human Agent — Show Thinking</summary>
 
 <em>
 
