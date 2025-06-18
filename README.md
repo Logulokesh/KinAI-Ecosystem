@@ -1363,7 +1363,8 @@ graph LR
 
 ---
 
-🔒 **Privacy-First:** All biometric processing remains local with medical-grade encryption.
+
+🔐 Privacy-First: 🖥️ Biometric data is processed locally and protected with 🧬 medical-grade encryption.
 
 ---
 
@@ -1377,7 +1378,7 @@ graph LR
 
 ## 📄 License
 
-Yep, it’s free — just like hugs 🤗, high-fives ✋, and a thumbs-up 👍!
+Yes, it’s completely free — just like a gesture of support 🤝, a nod of appreciation 👍, or a reassuring smile 😊.
 
 ---
 
