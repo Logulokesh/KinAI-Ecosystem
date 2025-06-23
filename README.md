@@ -148,11 +148,11 @@ In a world of disconnected apps and privacy concerns, KinAI brings everything to
     <td width="70%" valign="top">
     
 <details>
-  <summary>🤝 Think Like a Human Agent — Show Thinking</summary>
+  <summary>🤝 Think Like a Human — Show Thinking</summary>
 
 <em>
 
-## 🤝 Think Like a Human Agent
+## 🤝 Think Like a Human 
 
 Hey, let’s talk about something that’s probably been bugging you. You’re at home, chatting with your family about running out of paracetamol for a fever 🤒, and suddenly your phone’s serving you ads for painkillers 💊. Sound familiar?
 
@@ -633,6 +633,25 @@ graph TD
 ## 💬 KinAI Ecosystem: Contextual Query Examples
 
 *The KinAI Ecosystem integrates data from its privacy-first, AI-powered projects to deliver meaningful, family-centric responses to natural language queries. Below are interactive examples showcasing how KinAI acts as a trusted family assistant with local processing for maximum privacy.*
+
+### 🧠 Capability Showcase — Query & Response Example
+
+**Query:**  
+_"Is my daughter home since she's not picking up my call?"_
+
+**Response Powered by KinAI Ecosystem:**  
+The **KinAI Ecosystem** showcases its advanced, privacy-first AI capabilities by seamlessly answering this family-centric query. It integrates real-time data from multiple intelligent modules:
+
+- 🔐 **NexPatrol** – Presence & motion detection  
+- 👁️ **Vision** – Facial recognition at entry/exit points  
+- ❤️ **CareVault** – Health vitals & wellness monitoring  
+- 🎓 **ScholarKit** – Academic activity & device usage context  
+- 📍 **GeoPulse** – Real-time location tracking  
+
+All processing occurs **locally** to preserve **data privacy** and ensure security.
+
+The system intelligently synthesizes this diverse input — from face detection to school activity — and delivers **human-like insights**, helping families make informed decisions without sacrificing privacy.
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-Ecosystem/refs/heads/main/img/LogoEco.gif" alt="KinAi-Nexpatrol" width="100%" />
