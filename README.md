@@ -648,8 +648,6 @@ The **KinAI Ecosystem** showcases its advanced, privacy-first AI capabilities by
 - 🎓 **ScholarKit** – Academic activity & device usage context  
 - 📍 **GeoPulse** – Real-time location tracking  
 
-All processing occurs **locally** to preserve **data privacy** and ensure security.
-
 The system intelligently synthesizes this diverse input — from face detection to school activity — and delivers **human-like insights**, helping families make informed decisions without sacrificing privacy.
 
 
